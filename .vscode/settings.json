@@ -93,8 +93,10 @@
   "editor.minimap.autohide": true,
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
-  "grammarly.files.include": [
-      "**/*.md",
-      "**/*.txt"
-  ]
+  "jest.runMode": {
+    "type": "on-demand",
+    "coverage": true,
+    "runAllTestsOnStartup": false,
+    "showInlineError": true
+  }
 }
